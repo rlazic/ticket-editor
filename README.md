@@ -1,4 +1,4 @@
-Ticket editor
+TICKET EDITOR
 
 User has ability to:
 - change the name of ticket
