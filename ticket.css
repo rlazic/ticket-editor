@@ -16,14 +16,13 @@ body {
 
 .description {
   font-family: arial;
-  width: 100%;
-  height: 200px;
+  width: 837px;
+  height: 150px;
   padding: 10px;
 }
 
 .ticket-meta {
    line-height: 2;
-   
 }
 
 .ticket-assignee {
@@ -47,4 +46,3 @@ ul {
   padding: 1px 4px;
   margin-right: 10px;
 }
-
