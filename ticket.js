@@ -1,4 +1,4 @@
-/*Defining the ticket class with its components*/
+//Defining the ticket class with its components
 class Ticket {
  constructor(title, description, assignee, dueDate, labels) {
   this.title = title;
@@ -9,14 +9,14 @@ class Ticket {
   }
 }
 
-/*Editable ticket title*/
+//Editable ticket title
 const editable = document.querySelector('.editable');
 
 editable.addEventListener('input', function() {
   console.log('Text changed:', editable.innerText);
 });
 
-/*Due date selected from a dropdow calendar*/
+//Due date selected from a dropdow calendar
 const dueDateInput = document.getElementById('due-date');
 
 dueDateInput.addEventListener('change', function(event) {
